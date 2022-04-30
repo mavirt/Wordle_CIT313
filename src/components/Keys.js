@@ -4,6 +4,8 @@ import Key from "./Key";
 import {useDispatch} from "react-redux";
 import {Delete} from "../redux/actions/Delete";
 import {SubmitGuess} from "../redux/actions/SubmitGuess";
+
+
 function Keys(){
     const keys = 'qwertyuiopasdfghjklzxcvbnm'.split("");
     const dispatch = useDispatch();

@@ -3,7 +3,7 @@ import React from "react";
 import GL from "./GL";
 function Guess(props){
     let gl_eles = props.vl.map((itm,idx)=>
-        <GL key ={idx} vl={itm}/>
+        <GL key ={idx} vl={itm} />
     );
 
     return(

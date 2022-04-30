@@ -1,4 +1,7 @@
+import {colorTypes} from "../../wordAssets/colorTypes";
+
 function initState(){
+
     return {
         guesses: [
             ['','','','',''],
